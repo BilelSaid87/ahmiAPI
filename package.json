@@ -1,0 +1,29 @@
+{
+  "name": "api_covid19_tunisia",
+  "version": "1.0.0",
+  "description": "software solution to detect COVID-19 spread in tunisia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Tunisian COVID Fighters",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "request": "^2.88.2",
+    "telesignsdk": "^2.2.1",
+    "twilio": "^3.43.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
